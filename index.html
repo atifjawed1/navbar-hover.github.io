@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2171d40350.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <STYLE>
+    *{
+        margin:0%;
+        padding: 0%;
+    }
+    .navbar{
+        height: 70px;
+        width: 100%;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.473);
+        color: bisque;
+        font-size: larger;
+        text-transform: capitalize;
+        
+    }
+    .navlist{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        align-items: center;
+    }
+    .navlinks{
+        display: flex;
+        margin:  30px;  
+     }
+     .fa-bars{
+        position: relative;
+        top: 40px;
+        left: 20px;
+     }
+     @media screen and (min-width: 800px)
+     {
+        .fa-bars{
+            display: none;
+        }
+     }
+     
+    </STYLE>
+</head>
+<body>
+    <div class="navbar">
+        <i class="fa-solid fa-bars"></i>
+        <ul class="navlist">
+            <li class="navlinks">HOME</li>
+            <li class="navlinks">ABOUT</li>
+            <li class="navlinks">CONTACT</li>
+            <li class="navlinks">DONATE</li>
+            <li class="navlinks">SADQA</li>
+        </ul>
+    </div>
+</body>
+</html>
